@@ -2,14 +2,20 @@
   "name": "nodetec",
   "version": "1.0.0",
   "description": "",
-  "main": "node.js",
+  "main": "index.js",
   "scripts": {
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^4.2"
+  },
   "dependencies": {
-    "express": "^4.18.3"
+    "express": "^4.18.3",
+    "mysql": "^2.18.1"
   }
 }
